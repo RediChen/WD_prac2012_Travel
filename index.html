@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh"><!--繁中-->
+<head>
+    <meta charset="UTF-8"><!--繁中的字元集-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--for RWD-->
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+TC:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #efe8dc ;  
+        }
+        .kb {
+            background-image: url(https://source.unsplash.com/tIQuJzaWu9c/1200x700);
+        }
+        .text {
+            display: grid;
+            grid-template-columns: 10% 90%;
+            grid-template-rows: 45% 55%;
+        }
+        .t1 {
+            background-color: green ;
+            
+            grid-column: 1/span 2;
+        }
+        .t2 {background-color: Bisque ;}
+        .t3 {background-color: grey;}
+    </style>
+</head>
+<body>
+    <div class="kb">
+        <div class="text">
+            <h1 class="t1">漫步森林的心之旅</h1>
+            <h2 class="t2">特<br>色</h2>
+            <ul class="t3">
+                <li>給自己一個遠離繁忙喧囂的機會</li>
+                <li>和許久不見的大自然好好地敘舊</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
