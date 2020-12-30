@@ -14,11 +14,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    box-shadow:5px 5px 5px rgba(15, 15, 15, 0.15);
     transition: 0.5s; /*hover效果的過場時間*/
 }
 .kb:hover {
     transform: translate(-10px, -10px);
-    box-shadow:10px 10px 10px rgba(15, 15, 15, 0.15);
+    box-shadow:10px 10px 15px rgba(15, 15, 15, 0.15);
 }
 .text {
     margin-top: 15%;
@@ -73,5 +74,10 @@ footer {
     font-size: 140px;
     color: rgba(169, 169, 169, 0.15);
     text-align: center;
-    letter-spacing: 10px;
+    letter-spacing: 15px;
+    padding-left: 15px;
+    transition: 0.5s;
+}
+footer:hover {
+    color: rgba(169, 169, 169, 0.4);
 }
