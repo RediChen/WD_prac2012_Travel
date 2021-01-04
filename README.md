@@ -1,3 +1,4 @@
-# WebDesignPrac_2012
+# WD_prac2012_PersonalPage
 2020-2021的赫綵網頁設計課程
 統合git專案練習
+並且製個人名片式的簡介網頁
